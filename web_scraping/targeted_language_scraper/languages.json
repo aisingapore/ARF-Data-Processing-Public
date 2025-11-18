@@ -1,0 +1,12 @@
+{
+  "filipino": {
+    "name": "Filipino",
+    "glotlid_codes": ["tgl_Latn", "fil_Latn"],
+    "download_dir": "filipino_pdfs"
+  },
+  "malay": {
+    "name": "Malay",
+    "glotlid_codes": ["zsm_Latn", "zlm_Latn"],
+    "download_dir": "malay_pdfs"
+  }
+}
