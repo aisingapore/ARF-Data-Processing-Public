@@ -1,0 +1,28 @@
+[project]
+name = "scraping-framework"
+version = "0.1.0"
+description = "A modular web scraping framework powered by Scrapy."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "scrapy",
+    "pydantic",
+    "pydantic-settings",
+    "requests",
+    "beautifulsoup4",
+    "scrapy-playwright" 
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."] # Scrapy projects run from the root
+testpaths = ["tests"]
+
+
+[project.scripts]
+scrapy = "scrapy.cmdline:execute"

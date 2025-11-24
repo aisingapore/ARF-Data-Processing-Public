@@ -120,7 +120,7 @@ targeted_language_scraper/
 ```bash
 # 1. Clone the repository
 git clone https://github.com/aisingapore/ARF-Data-Processing-Public.git
-cd targeted_language_scraper
+cd web_scraping/targeted_language_scraper
 
 # 2. Create and activate virtual environment
 python3 -m venv venv
